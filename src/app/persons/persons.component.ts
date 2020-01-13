@@ -7,6 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class PersonsComponent {
 
-  personList: string[];
+  @Input() personList: string[];
 
 }
